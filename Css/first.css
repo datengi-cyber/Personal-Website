@@ -1,0 +1,151 @@
+body {
+  background-image: url(IMG_20220926_123054.jpg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background-color: rgb(143, 117, 67);
+  background-size: 100% 100%;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 1rem 0;
+  position: fixed;
+}
+
+nav p {
+  font-size: 28px;
+  color: antiquewhite;
+  font-style: italic;
+}
+
+nav img.logo {
+  height: 40px;
+}
+
+nav .menu-img {
+  width: 38px;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul a {
+  color: #d64ed8;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.text-container {
+  text-align: center;
+  margin: 2rem 0;
+  color: rgb(107, 40, 240);
+  
+}
+
+.text-container h1 {
+  color: rgb(160, 249, 26);
+  font-size: 40px;
+  font-size: 5rem;
+  margin-bottom: 8rem;
+}
+
+.text-container p {
+  font-size: 1.5rem;
+  margin-top: -7px;
+  color: rgb(236, 145, 25);
+}
+
+footer {
+  position: fixed;
+  background-color: rgb(133, 113, 91);
+  bottom: 0rem;
+  width: 100%;
+  text-align: center;
+  color: rgb(50, 49, 54);
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width:769px) {
+  nav p {
+    margin-left: 0;
+    font-size: 18px;
+}
+
+nav img.logo {
+    height: 30px;
+    margin-left: 0;
+    margin-right: 140px;
+}
+
+nav .menu-img {
+    width: 28px;
+    margin-left: 0;
+}
+nav p1{
+  font-size: 28px;
+  color: rgb(201, 212, 47);
+  font-style: italic;
+  margin-left: -198px;
+  
+}
+
+nav ul a {
+    font-size: 18px;
+    margin-left: 0;
+    color: #d64ed8;
+}
+}
+@media only screen and (min-width:768px){
+  nav p {
+    margin-left: 0;
+    font-size: 18px;
+}
+nav img.logo {
+    height: 42px;
+    margin-left: -250px;
+  
+}
+nav .menu-img {
+    width: 40px;
+    margin-left: -60px;
+}
+nav p1{
+  font-size: 28px;
+  color: rgb(200, 223, 174);
+  font-style: italic;
+  margin-left: -430px;
+  
+}
+
+nav ul a {
+    font-size: 25px;
+    margin-left: 0pz;
+    margin-right: -6px;
+    color: #d64ed8;
+}
+
+}

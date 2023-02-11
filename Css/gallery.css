@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(166, 171, 115);
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0px;
+}
+
+p{
+    color: rgb(120, 228, 139);
+    font-size: 35px;
+    letter-spacing: 0.2px;
+    background-color: rgb(247, 248, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -5px;
+    padding: 10px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+}
+
+nav a{
+    color: #573434;
+    justify-content: space-between;
+    font-size: 50px;
+    text-decoration: none;
+}
+button{
+    color: rgb(27, 17, 17);
+    font-size: 30px;
+    margin-top: -29px;
+    font-style: italic;
+}
+
+.left{
+    margin: 70px;
+    padding: 6px;
+    box-sizing: border-box;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+footer p{
+    background-color: rgb(222, 222, 195);
+    text-align: center;
+    height: 100px;
+    color: rgb(141, 229, 8);
+    padding-top: 35px;
+    padding-left: 40px;
+    position: relative;
+  }
+
+@media only screen and (max-width: 1024px) {
+    body {
+        background-color: rgb(179, 210, 212);
+        color: rgb(225, 154, 21);
+    }
+}
+
+@media only screen and (min-width: 622px) and (max-width: 768px) {
+    body {
+        background-color: rgb(151, 199, 196);
+        color: rgb(156, 192, 173);
+    }
+}
+
+@media only screen and (max-width: 622px) {
+    body {
+        background-color: rgb(179, 224, 222);
+        color: rgb(147, 204, 155);
+    }
+}
